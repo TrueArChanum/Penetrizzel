@@ -453,14 +453,6 @@ Boot-speed and performance testing on my Ryzen 9 5900X.
 
 The FPS target is adjustable from 1 to 1000.
 
-▶ Watch Penetrizzel performance demonstration
-
----
-
-## 📸 Screenshots
-
-See the `screenshots/` directory for additional screenshots.
-
 ---
 
 ## 👨‍💻 About Me
