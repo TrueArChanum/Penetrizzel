@@ -30,7 +30,7 @@ Writing an image to a USB storage device overwrites existing data.
 Penetrizzel also uses the boot device for persistent storage.
 Existing data in the relevant storage area may be overwritten.
 
-**Never use a USB stick containing "valuable" (ur naked mom pic's) data without making a backup.**
+**Never use a USB stick containing "valuable" data without making a backup.**
 
 The installation commands below operate on the entire USB device, not an individual partition.
 
