@@ -1,4 +1,4 @@
-# ⛧ Penetrizzel — QEMU Configuration
+# ⛧ Penetrizzel * QEMU Configuration
 
 Penetrizzel can run inside QEMU without requiring a physical USB stick.
 
@@ -122,14 +122,10 @@ qemu-system-x86_64 \
 
 ## 🔊 Audio
 
-The supplied configurations use two audio backends:
+Two audio backends:
 
-- SDL for the PC Beeper.
+- SDL for the PC Beeper.    // WARNING: it is loud! ...and just a fallback if HDA is N/A.
 - PulseAudio (`pa`) for HDA audio.
-
-Depending on your Linux distribution and installed audio infrastructure, you may need to adjust the audio backend.
-
-The UEFI configuration currently has a known limitation: the PC Beeper fallback does not seem to work reliably in QEMU.
 
 ---
 
@@ -141,13 +137,11 @@ QEMU has some BUGs, especially with UEFI, which I haven't encountered on real ha
 
 Sometimes QEMU hangs at the red boot splash screen.
 
-**Workaround:** Simply execute the QEMU command again.
+**Fix:** Terminate QEMU, then just spam QEMU command again.
 
 ### PC Beeper
 
-UEFI + QEMU does not seem to support the PC Beeper aka Earbleeder fallback audio backend reliably.
-
-This might be a BUG. xD
+UEFI + QEMU does not seem to support the PC Beeper aka "Earbleeder" fallback audio backend... this might be a BUFF. xD
 
 ### HDA audio
 
@@ -159,11 +153,11 @@ When switching applications quickly and frequently, HDA audio sometimes dies and
 
 QEMU directly uses the supplied image file as its virtual USB storage device.
 
-Penetrizzel's FAS operations and game saves therefore modify the image file on your host computer.
+Penetrizzel's FAS operations and game saves therefore modify the image file on ur host computer.
 
 **IMPORTANT:** The virtual disk image is writable.
 
-If you want to preserve the original image, make a backup before running Penetrizzel.
+If u want to preserve the original image, make a backup before running Penetrizzel.
 
 For example:
 
@@ -174,7 +168,7 @@ cp disk.img disk_backup.img
 cp uefi.img uefi_backup.img
 ```
 
-You can restore the original image by replacing the modified image with its backup.
+U can restore the original image by replacing the modified image with its backup (or just download another copy from my GitHub)...
 
 ---
 
