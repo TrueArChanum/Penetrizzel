@@ -1,13 +1,13 @@
 
-# ⛧ Penetrizzel — Installation Guide
+# ⛧ Penetrizzel * Installation Guide
 
 This document explains how to install and run Penetrizzel using a physical USB storage device.
 
-Both Legacy BIOS and UEFI boot modes are supported.
+Both Legacy BIOS and UEFI boot modes are supported. // UEFI was pain man...
 
 **IMPORTANT:** Penetrizzel uses Flat-Address Storage (FAS). The USB device is not simply a read-only boot medium. Persistent game data is written to the boot device.
 
-**Back up your data before proceeding\!**
+**Back up ur data before proceeding\!**
 
 ---
 
@@ -20,19 +20,17 @@ Only ONE image is required.
 | `disk.img` | Legacy BIOS / CSM | 84 MiB |
 | `uefi.img` | UEFI | 84 MiB |
 
-Choose the image matching your computer's firmware configuration.
+Choose the image matching ur computer's firmware configuration.
 
 ---
 
 ## ⚠️ Important Safety Information
 
 Writing an image to a USB storage device overwrites existing data.
-
 Penetrizzel also uses the boot device for persistent storage.
-
 Existing data in the relevant storage area may be overwritten.
 
-**Never use a USB stick containing valuable data without making a backup.**
+**Never use a USB stick containing "valuable" (ur naked mom pic's) data without making a backup.**
 
 The installation commands below operate on the entire USB device, not an individual partition.
 
@@ -47,9 +45,9 @@ Use the entire device.
 
 ## 🐧 Linux Installation
 
-### 1\. Identify your USB device
+### 1\. Identify ur USB device
 
-Connect your USB stick and execute:
+Connect ur USB stick and execute:
 
 bash
 
@@ -72,38 +70,26 @@ sdb   16.0G SanDisk USB     usb
 
 In this example, the USB device is `/dev/sdb`.
 
-**Your device name will probably be different\!**
+**Ur device name will probably be different\!**
 
 Never blindly copy `/dev/sdb` from this example.
 
-### 2\. Unmount the USB partitions
-
-Replace `sdX` with your actual device identifier.
-
-bash
-
-```bash
-sudo umount /dev/sdX?*
-```
-
-If no partitions are mounted, this step may not be necessary.
-
-### 3\. Optional: Clear the first 90 MiB
+### 2\. Optional: Clear the first 90 MiB    
 
 Penetrizzel uses approximately 84 MiB of storage.
 
-If you want to explicitly clear the first 90 MiB before installation:
+If u want to explicitly clear the first 90 MiB before installation:
 
 bash
 
 ```bash
-sudo dd if=/dev/zero of=/dev/sdX bs=1M count=90 status=progress conv=fsync
+sudo dd if=/dev/zero of=/dev/sd? bs=1M count=90 status=progress conv=fsync  // WARNING "sudo + dd" can (and will) erase all ur stuff!
 ```
 
 **Explanation:**
 
 - `if=/dev/zero`: Source of zero bytes.
-- `of=/dev/sdX`: Target USB device.
+- `of=/dev/sd?`: Target USB device. // Replace "?" with ur drive number of the USB (not ur SDD nor HDD !!!)
 - `bs=1M`: Block size of 1 MiB.
 - `count=90`: Write 90 blocks.
 - `status=progress`: Display progress.
@@ -111,9 +97,9 @@ sudo dd if=/dev/zero of=/dev/sdX bs=1M count=90 status=progress conv=fsync
 
 This operation clears the first 90 MiB (94,371,840 bytes).
 
-**This step is optional.** Writing the complete image already overwrites the corresponding area.
+**This step is optional.** // I had issues in the past with my Genesis SRAM savegames; but i think this step is not necessary anymore now.
 
-### 4\. Write the boot image
+### 3\. Write the boot image    // only ONE variant is needed!
 
 Choose the appropriate command.
 
@@ -122,7 +108,7 @@ Choose the appropriate command.
 bash
 
 ```bash
-sudo dd if=disk.img of=/dev/sdX bs=4M status=progress conv=fsync
+sudo dd if=disk.img of=/dev/sd? bs=4M status=progress conv=fsync
 ```
 
 #### UEFI
@@ -130,16 +116,16 @@ sudo dd if=disk.img of=/dev/sdX bs=4M status=progress conv=fsync
 bash
 
 ```bash
-sudo dd if=uefi.img of=/dev/sdX bs=4M status=progress conv=fsync
+sudo dd if=uefi.img of=/dev/sd? bs=4M status=progress conv=fsync
 ```
 
-Replace `/dev/sdX` with your actual USB device.
+Replace `/dev/sd?` with ur actual USB device.
 
 Wait until `dd` finishes.
 
 Do not disconnect the USB stick while writing.
 
-### 5\. Boot Penetrizzel
+### 4\. Boot Penetrizzel
 
 1. Safely disconnect the USB device.
 2. Insert it into the target computer.
@@ -154,7 +140,7 @@ Enjoy Penetrizzel\! ⛧
 
 ---
 
-## 🪟 Windows 11 Installation
+## 🪟 Windows 11 Installation   // ...who is even still using this? xD
 
 The easiest method is using balenaEtcher.
 
@@ -164,7 +150,7 @@ https://etcher.balena.io/
 
 ### 1\. Prepare the USB device
 
-Connect your USB stick.
+Connect ur USB stick.
 
 **WARNING:** All existing data on the selected target device may be destroyed.
 
@@ -179,7 +165,7 @@ Choose one of the following:
 
 ### 3\. Select the target device
 
-Carefully select your USB storage device.
+Carefully select ur USB storage device.
 
 Verify its model and capacity before proceeding.
 
@@ -195,13 +181,13 @@ Safely eject the USB device.
 
 Insert it into the target computer and select it through the firmware boot menu.
 
-**Note:** Windows may display a message asking you to format the USB device after writing the image. Do NOT format it. This is expected when Windows encounters an unfamiliar disk layout.
+**Note:** Windows may display a message asking u to format the USB device after writing the image. Do NOT format it. This is expected when Windows encounters an unfamiliar disk laut.
 
 ---
 
 ## 🖥️ Running Penetrizzel without a physical USB stick
 
-You can also run Penetrizzel through QEMU.
+U can also run Penetrizzel through QEMU.
 
 See QEMU.md for the recommended BIOS and UEFI configurations.
 
@@ -225,11 +211,10 @@ Persistent data is written during:
 
 **IMPORTANT:** This is not a harmless read-only boot image.
 
-Please back up your USB device regularly.
+Please back up ur USB device regularly.
 
 ---
 
 ⛧ Best regards,
 
 ArChanum
-
