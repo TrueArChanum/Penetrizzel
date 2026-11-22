@@ -446,7 +446,7 @@ I cannot even understand how people can do web design. Huge respect for the peop
 
 ### Where did these bad experiences come from?
 
-I tried to port "Hyperwurm is Back\!" to WASM via Electron.
+I tried to port "Hyperwurm is back\!" to WASM via Electron.
 
 ...It actually worked at some point...
 
