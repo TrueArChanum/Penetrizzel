@@ -231,7 +231,7 @@ On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approxi
 
 **Version 1.37**
 
-#### Lines of Code — Penetrizzel
+#### Lines of Code * Penetrizzel
 
 bash
 
@@ -248,7 +248,7 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 3 -type f -name "*.asm" -exec cat {
 | `.asm` | 5,506 |
 | **Total** | **85,443** |
 
-#### Lines of Code — Including clownMDEmu
+#### Lines of Code * Including clownMDEmu
 
 bash
 
