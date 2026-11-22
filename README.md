@@ -1,7 +1,5 @@
 # ⛧ Penetrizzel
 
-**A "TOY OS" with a slightly unhealthy obsession with USB sticks.**
-
 ---
 
 ## 💾 What is Penetrizzel?
@@ -18,7 +16,7 @@ The idea is simple:
 
 **Less bloat. Less waiting. More control.**
 
-And hopefully fewer gray hairs.
+And hopefully fewer gray hairs, while waiting for MS Outlook to boot for half a minute, only to show some text...
 
 https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
 
@@ -43,13 +41,15 @@ https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
 
 ## Why Penetrizzel?
 
-Because I despise stuff like "2 Faktor Auth" with a passion.
+Making even simple Games is rly hard; i want to deliver a platform which makes it easy to develop a simple 2D "retro-like" Game.
+
+I also despise stuff like "Two Factor Auth." with a passion. Do not love local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
 
 "Modern" PC security seems to head in a rather questionable direction too, IMHO. More authentication layers, more dependencies, more inconvenience for the USER.
 
 And whether all this actually makes things safer in practice? Well, "no"... if u believe the news, which I don't; so I guess we don't know for sure...
 
-I want to explore alternative ideas.
+Finally I want to explore alternative ideas.
 
 **Future plans, maybe...**
 
@@ -65,9 +65,7 @@ Imagine separating ur data into different physical devices:
 | Key Stick | Could contain a cryptographic key. Without it, data on the Tresor Stick remains unreadable. |
 | Personal Data Stick | Contains encrypted personal user data. Cannot be read without the Key Stick; could be used for online stuff (authentication, age verification, etc.). |
 
-And we could also mess around with the TPM 2.0 chip.
-
-It's my hardware, I paid for it, so I wanna use this damn chip too\!
+And we could also mess around with the TPM 2.0 chip. // It's my hardware, I paid for it, so I wanna use this damn chip too\!
 
 The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff. No other security layer needed (hopefully).
 
@@ -118,9 +116,7 @@ RUN CLOWN
 RUN WURM
 ```
 
-**PNO = Penetrizzel Native Object.**
-
-Pronunciation: `[piˈno]`
+**PNO = Penetrizzel Native Object.**  // Pronunciation: `[piˈno]`
 
 The PNO format is still relatively new. A lot of things are hardcoded right now, so u cannot (yet) simply add ur own custom `.pno` applications and launch them.
 
@@ -145,7 +141,7 @@ Original project / example:
 
 ### ⚠️ FAT TOFU workaround
 
-There seems to be a BUG involving FAT TOFU which can cause the emulator to hang.
+There seems to be a Glitch involving FAT TOFU which can cause the emulator to hang.
 
 For the currently distributed version, after executing:
 
@@ -217,7 +213,7 @@ Instead, Penetrizzel uses SIMD software rendering:
 
 The FPS target is adjustable from 1 to 1000.
 
-On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately 9% CPU load** for Console / Hyperwurm / Twilight\_Chess.
+On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately ~15% CPU load** for Console / Hyperwurm / Twilight\_Chess.
 
 ### Some statistics
 
@@ -263,7 +259,8 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 ### 📜 Licensing & Development Philosophy
 
-This project is currently developed as proprietary, closed-source software, cause of "entropy" - as soon as i made the decision to "open source" everything, i cannot take it back; that's why i wanna back "small steps" first.
+This project is currently developed as proprietary, closed-source software, cause of "entropy" - as soon as i made the decision to "open source" everything, 
+i cannot take it back; that's why i wanna back "small steps" first.
 
 Open-sourcing parts or potentially all of the project remains a possibility for the future.
 
@@ -332,7 +329,7 @@ There is:
 
 It's not Windows. xD
 
-_Note: Firmware-level components such as Intel Management Engine and similar technologies are outside the scope of these OS-level claims._
+_Note: Firmware-level components such as Intel Management Engine and similar spy technologies are outside the scope of these OS-level claims._
 
 ### Storage access
 
@@ -398,7 +395,7 @@ There are quite a few... 🙉
 - No multithreading.
 - No GPU acceleration.
 - USB support is not reliable yet.
-- xHCI implementation is still rather buggy. SEND HELP\!
+- xHCI implementation is still rather buggy. // SEND HELP\!
 - HDA audio support is incomplete.
 - Only a limited number of sound controllers are supported.
 - PNO is still under development.
@@ -410,7 +407,7 @@ There are quite a few... 🙉
 QEMU has some BUGs (especially with UEFI) which I haven't encountered on real hardware.
 
 - Sometimes it doesn't boot and simply hangs at the "red boot splash screen".**FIX:** Just run the QEMU command again.
-- UEFI + QEMU does not seem to support the "PC Beeper" aka "Earbleeder" fallback audio backend... but, this might be a BUG. xD
+- UEFI + QEMU does not seem to support the "PC Beeper" aka "Earbleeder" fallback audio backend... but, this might be a BUFF. xD
 - When switching applications quickly and frequently, HDA audio sometimes dies and falls back to the PC Beeper or produces no sound.
 
 ### Real hardware
