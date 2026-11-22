@@ -20,6 +20,8 @@ The idea is simple:
 
 And hopefully fewer gray hairs.
 
+https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
+
 ---
 
 ## 📑 Table of Contents
