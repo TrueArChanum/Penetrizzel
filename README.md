@@ -527,7 +527,7 @@ But I would genuinely appreciate it if u bought a valuable copy of my game:
 
 ### 🪱 Hyperwurm is back\!
 
-Available on Steam.
+### [🚂 Get "Hyperwurm is back!" on Steam!](https://store.steampowered.com/app/4664970/Hyperwurm_is_back/)
 
 Play it, try to enjoy it, and share ur high scores\!
 
