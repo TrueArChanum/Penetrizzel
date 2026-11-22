@@ -1,0 +1,43 @@
+ROM.bin
+
+This file is a renamed & bloated (to 6 MiB) copy of:
+
+`clownmdsdk/example/tofu/build/tofu.bin`
+
+It originates from Clownacy's ClownMDSDK project:
+
+https://github.com/Clownacy/clownmdsdk
+
+Copyright © 2024 Clownacy.
+
+ClownMDSDK,
+including its example projects, is released under the Zero-Clause BSD licence.
+
+The following licence applies:
+
+---------------------------------------------------------------------------
+
+Copyright (c) 2024 Clownacy
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+---------------------------------------------------------------------------
+
+Platform and Trademark Notice
+
+This is unofficial homebrew software developed for the SEGA Mega Drive / SEGA Genesis hardware platform.
+
+SEGA and Mega Drive / Genesis are trademarks of SEGA Corporation.
+
+This software is not developed, published, endorsed, or sponsored by SEGA Corporation.
+
+No SEGA proprietary BIOS or game ROM is intentionally included.
