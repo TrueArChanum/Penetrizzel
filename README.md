@@ -361,12 +361,12 @@ Example on Arch Linux:
 bash
 
 ```bash
-sudo dd if=/dev/zero of=/dev/sdX bs=1M count=90 status=progress conv=fsync
+sudo dd if=/dev/zero of=/dev/sd? bs=1M count=90 status=progress conv=fsync
 ```
 
-⚠️ **WARNING:** Always verify which device (e.g. `/dev/sdX`) u are messing up before executing such a command\!
+⚠️ **WARNING:** Always verify which device (e.g. `/dev/sd?`) u are messing up before executing such a command\!
 
-Replace `/dev/sdX` with the correct device identifier. Selecting the wrong device can destroy data.
+Replace `/dev/sd?` with the correct device identifier. Selecting the wrong device can destroy data.
 
 **IMPORTANT: This is not a harmless read-only boot image.**
 
@@ -434,18 +434,6 @@ Although Penetrizzel does not implement an HDD/SSD driver, USB storage operation
 **Please don't use a USB stick containing valuable data without making a backup.**
 
 ---
-
-## 🎥 Videos & Demonstrations
-
-### FAT TOFU
-
-Demonstration of ROM editing to work around a glitch in the SEGA Genesis game TOFU.
-
-Original example:
-
-[https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu](<https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu>)
-
-▶ Watch FAT TOFU demonstration
 
 ### Penetrizzel boot performance
 
