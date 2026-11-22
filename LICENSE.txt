@@ -1,0 +1,38 @@
+LicenseRef-proprietary-license
+
+Proprietary Software License Agreement:
+---------------------------------------------------------------------------
+
+Copyright (c) 2026 Whyvna Züafgre a.k.a. ArChanum
+All rights reserved.
+
+This software and its source code are proprietary and confidential.
+
+By using this software, you agree to the following terms:
+
+1. Grant of Use
+   - You are granted a non-exclusive, non-transferable right to use the
+     compiled binaries of this software for personal or commercial purposes,
+     as permitted by the author.
+   - Access to the source code is restricted and may not be shared,
+     modified, or redistributed without explicit written permission.
+
+2. Restrictions
+   - You may not copy, modify, distribute, sublicense, or reverse engineer
+     the source code.
+   - You may not remove or alter copyright notices.
+
+3. Ownership
+   - The author retains full ownership of the software and its source code.
+   - No rights are transferred to you beyond the limited usage rights
+     described above.
+
+4. Termination
+   - Any violation of these terms will result in immediate termination of
+     your right to use the software.
+
+5. Governing Law
+   - This license shall be governed by the laws of Germany.
+
+---------------------------------------------------------------------------
+End of License
