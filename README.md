@@ -225,7 +225,7 @@ Instead, Penetrizzel uses SIMD software rendering:
 
 The FPS target is adjustable from 1 to 1000.
 
-On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately ~15% CPU load** for Console / Hyperwurm / Twilight\_Chess.
+On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately ~15% CPU load** for Console / Hyper_Wurm / Twilight\_Chess.
 
 ### Some statistics
 
