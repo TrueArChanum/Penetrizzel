@@ -184,7 +184,13 @@ On Arch Linux (btw), use the supplied helper:
 bash
 
 ```bash
-./replace_rom.sh ROM.bin
+./replace_rom.sh disk.img ROM.bin
+```
+
+or
+
+```bash
+./replace_rom.sh uefi.img ROM.bin
 ```
 
 Alternatively:
@@ -192,10 +198,16 @@ Alternatively:
 bash
 
 ```bash
-python replace_rom.py ROM.bin
+python replace_rom.py disk.img ROM.bin
 ```
 
-See the accompanying `README.txt` for additional details.
+or
+
+```bash
+python replace_rom.py uefi.img ROM.bin
+```
+
+See the accompanying `replace_rom_README.txt` for additional details.
 
 ---
 
@@ -379,8 +391,6 @@ Persistent data is written during:
 - F2 Kernel Soft-reset.
 
 If u want to prevent the OS from writing persistent data, u can physically remove the USB stick after booting, although this also means that subsequent storage operations will fail.
-
-See SECURITY.md for further details.
 
 ---
 
