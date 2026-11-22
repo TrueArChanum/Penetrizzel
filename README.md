@@ -481,9 +481,7 @@ Messing around with dozens of dependencies (which seem to change or shift with e
 
 Even worse than xHCI.c kernel driver development.
 
-I simply want to revert to simpler software, get less gray hair in the future, and maybe make something useful along the way.
-
-50/50 Chance (4+ 🎲)
+I actually want to revert to simpler software and maybe make something useful along the way. // 50/50 Chance (4+ 🎲)
 
 For everybody else who embraces all this new stuff: have fun with ur (future) three-factor authentication\! 🖕
 
