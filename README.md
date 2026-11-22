@@ -296,29 +296,6 @@ Only ONE of the following images is needed to run Penetrizzel.
 
 Download the appropriate image from the Releases section.
 
-**Linux (Arch Linux):**
-
-bash
-
-```bash
-chmod +x build.sh
-./build.sh
-```
-
-**Windows:**
-
-bat
-
-```bat
-build.bat
-```
-
-⚠️ **WARNING:** Writing a disk image to a USB stick destroys existing data on the selected target device.
-
-Always verify the target device before proceeding.
-
-**Back up ur data first\!**
-
 Detailed installation instructions: INSTALLATION.md
 
 ### QEMU
