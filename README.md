@@ -461,7 +461,7 @@ I dislike long loading times, unresponsive menus, and 99% of modern EDV "Tools".
 
 MS Word, EXCEL, u name it, I hate it.
 
-I did like MS Paint & Editor though... 🎨
+I did like MS Paint, TaskManager & Editor though... 🎨
 
 Modern software (especially on the WEB) is ridiculously bloated.
 
