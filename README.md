@@ -298,13 +298,13 @@ Only ONE of the following images is needed to run Penetrizzel.
 
 Download the appropriate image from the Releases section.
 
-Detailed installation instructions: INSTALLATION.md
+Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
 
 ### QEMU
 
 You can also run Penetrizzel using QEMU.
 
-See QEMU.md for the recommended command line and configuration.
+See [QEMU.md](QEMU.md) for the recommended command line and configuration.
 
 ---
 
