@@ -22,6 +22,14 @@ https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
 
 ---
 
+### Source Code
+
+Curious about what's under the hood?
+
+Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
+
+---
+
 ## 📑 Table of Contents
 
 - What is Penetrizzel?
