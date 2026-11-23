@@ -3,7 +3,7 @@
 
 This document explains how to install and run Penetrizzel using a physical USB storage device.
 
-Both Legacy BIOS and UEFI boot modes are supported. // UEFI was pain man...
+Both Legacy BIOS and UEFI boot modes are supported. // UEFI was pain, man...
 
 **IMPORTANT:** Penetrizzel uses Flat-Address Storage (FAS). The USB device is not simply a read-only boot medium. Persistent game data is written to the boot device.
 
@@ -79,11 +79,12 @@ Never blindly copy `/dev/sdb` from this example.
 Penetrizzel uses approximately 84 MiB of storage.
 
 If u want to explicitly clear the first 90 MiB before installation:
+// WARNING "sudo + dd" can (and will) erase all ur stuff!
 
 bash
 
 ```bash
-sudo dd if=/dev/zero of=/dev/sd? bs=1M count=90 status=progress conv=fsync  // WARNING "sudo + dd" can (and will) erase all ur stuff!
+sudo dd if=/dev/zero of=/dev/sd? bs=1M count=90 status=progress conv=fsync  
 ```
 
 **Explanation:**
