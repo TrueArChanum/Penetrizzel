@@ -43,6 +43,8 @@ https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
 
 Making even simple Games is rly hard; i want to deliver a platform which makes it easy to develop a simple 2D "retro-like" Game.
 
+More Examples: Not a fan, when i try to shutdown my Computer, but Windows decides to do "do stuff" for 10 more minutes...
+
 I also despise stuff like "Two Factor Auth." with a passion. Do not love local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
 
 "Modern" PC security seems to head in a rather questionable direction too, IMHO. More authentication layers, more dependencies, more inconvenience for the USER.
@@ -81,7 +83,7 @@ The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff
 - UEFI 64-bit boot support.
 - No paging.
 - No multithreading / SMP.
-- VGA MODE-X, 320 × 240, 8-bit framebuffer.
+- VGA MODE-X, 320 × 240, 8-bit framebuffer.  (640 x 480 in UEFI)
 - Four memory planes and page flipping.
 - PS/2 keyboard support via IRQ1.
 - Basic PCI support.
@@ -225,7 +227,7 @@ Instead, Penetrizzel uses SIMD software rendering:
 
 The FPS target is adjustable from 1 to 1000.
 
-On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately ~15% CPU load** for Console / Hyper_Wurm / Twilight\_Chess.
+On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approximately ~12% CPU load** for Console / Hyper_Wurm / Twilight\_Chess. clownMDEmu hits around 800 FPS.
 
 ### Some statistics
 
@@ -336,7 +338,7 @@ Penetrizzel uses Flat-Address Storage (FAS).
 
 The boot device also stores persistent game data, including:
 
-- Hyper-Wurm high scores.
+- Hyper_Wurm high scores.
 - Genesis game data / SRAM (e.g. Shining Force savegames).
 
 The OS uses approximately 84 MiB of storage.
@@ -434,13 +436,14 @@ The FPS target is adjustable from 1 to 1000.
 
 For people who care...
 
-I dislike long loading times, unresponsive menus, and 99% of modern EDV "Tools".
+I dislike long loading times, unresponsive menus, and 95% of modern EDV "Tools".
 
 MS Word, EXCEL, u name it, I hate it.
 
 I did like MS Paint, TaskManager & Editor though... 🎨
+...and I am a big fan of KDE Plasma "KATE" (which is my Code Editor basically) - so... it's not all "bad".
 
-Modern software (especially on the WEB) is ridiculously bloated.
+Modern software (especially on the WEB) is ridiculously bloated. // = understatement!
 
 I cannot even understand how people can do web design. Huge respect for the people who suffer through this ... aaand u have my pity too\!
 
