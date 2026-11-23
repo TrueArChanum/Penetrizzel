@@ -30,18 +30,19 @@ Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
 
 ---
 
+
 ## 📑 Table of Contents
 
-- What is Penetrizzel?
-- Why Penetrizzel?
-- Features
-- SEGA Genesis Emulation
-- Performance & Architecture
-- Download & Installation
-- Security & Privacy
-- Known Limitations & Bugs
-- About Me
-- Support the Development
+- [What is Penetrizzel?](#-what-is-penetrizzel)
+- [Why Penetrizzel?](#why-penetrizzel)
+- [Features](#-features)
+- [SEGA Genesis Emulation](#-sega-genesis-emulation)
+- [Performance & Architecture](#-performance--architecture)
+- [Download & Installation](#-download--installation)
+- [Security & Privacy](#-security--privacy)
+- [Known Limitations & Bugs](#-known-limitations--bugs)
+- [About Me](#-about-me)
+- [Support the Development](#-support-the-development)
 
 ---
 
