@@ -196,11 +196,11 @@ See [QEMU.md](QEMU.md) for the recommended BIOS and UEFI configurations.
 
 ## 🔐 Persistent Storage & Game Saves
 
-Penetrizzel uses Flat-Address Storage (FAS).
+Penetrizzel uses Flat-Address Storage (FAS). // ...i think i should mention this more often...
 
 The boot device also stores persistent game data, including:
 
-- Hyper-Wurm high scores.
+- Hyper_Wurm high scores.
 - SEGA Genesis game data and SRAM.
 - Other persistent application data.
 
