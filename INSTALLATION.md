@@ -190,7 +190,7 @@ Insert it into the target computer and select it through the firmware boot menu.
 
 U can also run Penetrizzel through QEMU.
 
-See QEMU.md for the recommended BIOS and UEFI configurations.
+See [QEMU.md](QEMU.md) for the recommended BIOS and UEFI configurations.
 
 ---
 
