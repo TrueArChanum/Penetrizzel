@@ -40,8 +40,6 @@ Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
 - Download & Installation
 - Security & Privacy
 - Known Limitations & Bugs
-- Videos & Demonstrations
-- Screenshots
 - About Me
 - Support the Development
 
