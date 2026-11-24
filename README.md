@@ -55,17 +55,17 @@ More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 dec
 🔮 Future Ideas of a madman (Unimplemented)
 
 <details>
-<summary>⚠️ Brainrot ahead... click to expand</summary>
+<summary>🧠 Brainrot ahead... *click to expand*</summary>
 
-Rethinking PC Security
+Rethinking PC Security.
 
-I also despise stuff like "Two Factor Auth." with a passion. Do not love local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
+I despise stuff like "Two-factor authentication (2FA)" with a passion. Do not love mandatory local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
 
 "Modern" PC security seems to head in a rather questionable direction too, IMHO. More authentication layers, more dependencies, more inconvenience for the USER.
 
 And whether all this actually makes things safer in practice? Well, "no"... if u believe the news, which I don't; so I guess we don't know for sure...
 
-Finally I want to explore alternative ideas.
+Finally I want to explore alternative ideas. // WARNING if u proceed to read! i did not yet took all my pills!
 
 **Future plans, maybe...**
 
@@ -90,7 +90,7 @@ The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff
 </details>
 
 <details>
-<summary>⚠️ fever dream... click to expand</summary>
+<summary>💭 fever dream...</summary>
 
 Virtual CPUs (V_CPU) aka CPU emulation:
 //TODO: New dumb idea: "V_CPU" – A 64-bit x86 Computer should be able to "execute all Code", no matter the CPU architecture. 
@@ -104,7 +104,7 @@ Questions to ask: Is this possible? And does it even make sense..? xD
 </details>
 
 <details>
-<summary>🌐 ...this...is Heresy!</summary>
+<summary>🔥 ...this...is Heresy!</summary>
 
 The Internet should deliver information, not an entire operating environment.
 
@@ -132,26 +132,34 @@ What is a Website..?
 Text (ok... with fancy CSS; but no1 rly needs that);
 
 sometimes Images;
-sometimes embedded videos;
-//we could handle these two later
 
-and 98% of the "other" stuff is not rly "wanted" by the user!
+sometimes embedded videos;
+
+//we could handle these two later.
+
+and 98% of the "other" stuff is not rly "wanted" by "us" users!
 
 </details>
 
 <details>
-<summary>🤖 Max Copium → Full Agentic OS click to expand</summary>
+<summary> 🦾 🤖 > 💥 Max Copium -> "True" Agentic OS</summary>
 
-Implement a 32-to-64-bit trampoline( = controlled CPU mode transitions), to switch CPU Mode on demand; then
-implement a fully Agentic OS to support a local AI (LLM). Make no mistakes!
+Implement a 32-to-64-bit trampoline( = controlled CPU mode transitions), to switch CPU Mode on demand (we need more Memory!); 
+then implement a fully Agentic OS to support a local AI (LLM).
 
-"Access" the GPU command buffers n' stuff (somehow): Load a local LLM into GPU memory and run it (inside the Console).
+Make no mistakes!
 
-Hook as many Kernel "functions" as possible to Commands the LLM can execute (to control stuff – complete Chaos? No problem!).
+"Access" the GPU command buffers n' stuff (..somehow): Load a local LLM into GPU memory and run it (prompt it via Console).
+
+Hook as many Kernel "functions" as possible to Commands the LLM can execute (to control stuff - complete Chaos? No problem!).
 
 ~100% of GPU resources belong to the LLM; we use Software Rendering for all the "other stuff".
 The LLM is the operating system's administrator, not its guest.
-No artificial permission hierarchy inside Penetrizzel. The AI can modify, destroy, restart or completely break its own environment.
+No artificial permission hierarchy inside Penetrizzel. 
+The AI can modify, destroy, restart or completely break its own environment.
+
+Why should an AI running inside an operating system be treated like an app, rather than a first-class system component?
+
 CHAOS IS MY MASTER!
 </details>
 
