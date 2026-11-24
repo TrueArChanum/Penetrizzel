@@ -268,9 +268,11 @@ text
 ROM WRITE 2CAC 0000
 ```
 
-~~Now switch back to TOFU and play ~~
+
+~~Now switch back to TOFU and play~~
 
 ~~Apparently, ROM editing is sometimes part of the gaming experience. xD ~~
+
 
 </details>
 
