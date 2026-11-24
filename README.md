@@ -58,7 +58,7 @@ More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 dec
 <details>
 <summary>🧠 Brainrot ahead... *click to expand*</summary>
 
-## Rethinking PC Security.
+# Rethinking PC Security.
 
 I despise stuff like "Two-factor authentication (2FA)" with a passion. Do not love mandatory local nor Online-Logins 
 (squinting to Win11 -.- ) either to access my OS.
@@ -74,7 +74,7 @@ Finally I want to explore alternative ideas. // WARNING if u proceed to read! i 
 **Future plans, maybe...**
 
 For example, instead of relying exclusively on digital authentication mechanisms, why not use physical 
-## USB sticks as keys?
+# USB sticks as keys?
 
 Imagine separating ur data into different physical devices:
 
@@ -97,7 +97,7 @@ The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff
 <details>
 <summary>💭 fever dream...</summary>
 
-## Virtual CPUs (V_CPU) aka CPU emulation.
+# Virtual CPUs (V_CPU) aka CPU emulation.
 
 "V_CPU" - A 64-bit x86 Computer should be able to "execute all Code", no matter the CPU architecture. 
 
@@ -116,7 +116,7 @@ Questions to ask: Is this possible? And does it even make sense..? xD
 <details>
 <summary>🔥 ...this...is Heresy!</summary>
 
-## The Internet should deliver information, not an entire operating environment.
+# The Internet should deliver information, not an entire operating environment.
 
 No web browser as a second layer (basically another OS on top of mine). No HTML, no WWW, no HTTPS(e.g. avoid the conventional Web stack), no JavaScript, etc. Just the freestanding C99 OS.
 
@@ -154,12 +154,12 @@ and 98% of the "other" stuff is not rly "wanted" by "us" users!
 <details>
 <summary> 🦾 🤖 > 💥 Max Copium!</summary>
 
-## "True" Agentic OS
+# "True" Agentic OS
 
 Implement a 32-to-64-bit trampoline( = controlled CPU mode transitions), to switch CPU Mode on demand (we need more Memory!); 
 then implement a fully Agentic OS to support a local AI (LLM).
 
-## Make no mistakes!    --sandbox danger-full-access
+# Make no mistakes!    --sandbox danger-full-access
 
 "Access" the GPU command buffers n' stuff (..somehow): Load a local LLM into GPU memory and run it (prompt it via Console).
 
@@ -243,7 +243,7 @@ Original project / example:
 
 [https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu](<https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu>)
 
-### ⚠️ FAT TOFU workaround
+### 🍔 FAT TOFU workaround
 
 There seems to be a Glitch involving FAT TOFU which can cause the emulator to hang.
 
@@ -267,7 +267,7 @@ Now switch back to TOFU and play.
 
 Apparently, ROM editing is sometimes part of the gaming experience. xD
 
-### Replacing the Genesis ROM
+### 💽 Replacing the Genesis ROM
 
 The uploaded version uses FAT TOFU as its SEGA Genesis ROM.
 
@@ -352,7 +352,7 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 3 -type f -name "*.asm" -exec cat {
 | `.asm` | 5,506 |
 | **Total** | **85,443** |
 
-#### Lines of Code * Including clownMDEmu
+#### Lines of Code * Including clownMDEmu (via .pno), all custom libs, everything.
 
 bash
 
@@ -420,9 +420,9 @@ There is:
 - No HDD/SSD storage driver.
 - No network communication.
 
-It's not Windows 11. // Dear Microsoft, pls fix Windows!
+It's not Windows 11      // Dear Microsoft, pls fix Windows!
 
-_Note: Firmware-level components such as Intel Management Engine and similar spy technologies are outside the scope of these OS-level claims._
+_NOTE: Firmware-level components such as Intel Management Engine and similar "spy" technologies are outside the scope of these OS-level claims._
 
 ### Storage access
 
@@ -435,7 +435,7 @@ Although Penetrizzel does not implement an HDD/SSD driver, USB storage operation
 This does not mean Penetrizzel has direct access to ur host filesystem.
 
 
-### ⚠️ Important: USB storage and game saves
+### 💾 USB storage and game saves
 
 Penetrizzel uses Flat-Address Storage (FAS).
 
@@ -460,7 +460,7 @@ If u want to prevent the OS from writing persistent data, u can physically remov
 
 ---
 
-## ⚠️ Known Limitations & Bugs
+## 🐞 Known Limitations & Bugs
 
 There are quite a few... 🙉
 
