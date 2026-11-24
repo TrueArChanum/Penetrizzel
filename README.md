@@ -280,7 +280,7 @@ ROM WRITE 2CAC 0000
 
 The current release version (uefi or disk.img) uses an "older" FAT TOFU as its SEGA Genesis ROM, which has a little glitch.
 
-I uploaded a newer ROM.bin (in the project root folder); 
+The project root folder contains a newer Version of the ROM.bin - Clownacy did fix the glitch in this version.
 
 u can try to fix the glitch by applying the "replace_rom" HACK to the older FAT TOFU ROM.
 
