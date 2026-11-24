@@ -50,26 +50,31 @@ Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
 
 Making even simple Games is rly hard; i want to deliver a platform which makes it easy to develop a simple 2D "retro-like" Game.
 
-More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 decides to do "do stuff" for 10 more minutes... // I rly liked Win 7 - i wish id' come back! xD
+More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 decides to do "do stuff" for 10 more minutes... 
+// I rly did like Win 7 - i wish id' come back! xD
 
 🔮 Future Ideas of a madman (Unimplemented)
 
 <details>
 <summary>🧠 Brainrot ahead... *click to expand*</summary>
 
-Rethinking PC Security.
+## Rethinking PC Security.
 
-I despise stuff like "Two-factor authentication (2FA)" with a passion. Do not love mandatory local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
+I despise stuff like "Two-factor authentication (2FA)" with a passion. Do not love mandatory local nor Online-Logins 
+(squinting to Win11 -.- ) either to access my OS.
 
-"Modern" PC security seems to head in a rather questionable direction too, IMHO. More authentication layers, more dependencies, more inconvenience for the USER.
+"Modern" PC security seems to head in a rather questionable direction too, IMHO. 
+More authentication layers, more dependencies, more inconvenience for the USER.
 
-And whether all this actually makes things safer in practice? Well, "no"... if u believe the news, which I don't; so I guess we don't know for sure...
+And whether all this actually makes things safer in practice? 
+Well, "no"... if u believe the news, which I don't; so I guess we don't know for sure...
 
 Finally I want to explore alternative ideas. // WARNING if u proceed to read! i did not yet took all my pills!
 
 **Future plans, maybe...**
 
-For example, instead of relying exclusively on digital authentication mechanisms, why not use physical USB sticks as keys?
+For example, instead of relying exclusively on digital authentication mechanisms, why not use physical 
+## USB sticks as keys?
 
 Imagine separating ur data into different physical devices:
 
@@ -92,13 +97,18 @@ The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff
 <details>
 <summary>💭 fever dream...</summary>
 
-Virtual CPUs (V_CPU) aka CPU emulation:
-//TODO: New dumb idea: "V_CPU" – A 64-bit x86 Computer should be able to "execute all Code", no matter the CPU architecture. 
+## Virtual CPUs (V_CPU) aka CPU emulation.
+
+"V_CPU" - A 64-bit x86 Computer should be able to "execute all Code", no matter the CPU architecture. 
 
 For example:
+
 Create a "Virtual CPU" (short: V_CPU), e.g. M68000 and Z80; together, they could act as a SEGA Genesis emulator.
+
 Create another "Virtual CPU" which could e.g. run Amiga, ARM (JIT?), etc.
+
 Create Trampolines to switch between CPU execution modes: 32-bit (baseline), 16-bit (Real Mode), or 64-bit (with Paging). Each could act as a separate "Virtual CPU".
+
 Questions to ask: Is this possible? And does it even make sense..? xD
 
 </details>
@@ -106,7 +116,7 @@ Questions to ask: Is this possible? And does it even make sense..? xD
 <details>
 <summary>🔥 ...this...is Heresy!</summary>
 
-The Internet should deliver information, not an entire operating environment.
+## The Internet should deliver information, not an entire operating environment.
 
 No web browser as a second layer (basically another OS on top of mine). No HTML, no WWW, no HTTPS(e.g. avoid the conventional Web stack), no JavaScript, etc. Just the freestanding C99 OS.
 
@@ -142,12 +152,14 @@ and 98% of the "other" stuff is not rly "wanted" by "us" users!
 </details>
 
 <details>
-<summary> 🦾 🤖 > 💥 Max Copium -> "True" Agentic OS</summary>
+<summary> 🦾 🤖 > 💥 Max Copium!</summary>
+
+## "True" Agentic OS
 
 Implement a 32-to-64-bit trampoline( = controlled CPU mode transitions), to switch CPU Mode on demand (we need more Memory!); 
 then implement a fully Agentic OS to support a local AI (LLM).
 
-Make no mistakes!
+## Make no mistakes!    --sandbox danger-full-access
 
 "Access" the GPU command buffers n' stuff (..somehow): Load a local LLM into GPU memory and run it (prompt it via Console).
 
