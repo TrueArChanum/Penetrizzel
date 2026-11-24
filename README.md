@@ -52,6 +52,13 @@ Making even simple Games is rly hard; i want to deliver a platform which makes i
 
 More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 decides to do "do stuff" for 10 more minutes... // I rly liked Win 7 - i wish id' come back! xD
 
+🔮 Future Ideas of a madman (Unimplemented)
+
+<details>
+<summary>⚠️ Brainrot ahead... click to expand</summary>
+
+Rethinking PC Security
+
 I also despise stuff like "Two Factor Auth." with a passion. Do not love local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
 
 "Modern" PC security seems to head in a rather questionable direction too, IMHO. More authentication layers, more dependencies, more inconvenience for the USER.
@@ -80,7 +87,7 @@ And we could also mess around with the TPM 2.0 chip. // It's my hardware, I paid
 
 The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff. No other security layer needed (hopefully).
 
-**NOTE:** These are exploratory ideas of a madman, NOT currently implemented security guarantees.
+</details>
 
 ---
 
@@ -180,7 +187,7 @@ The uploaded version uses FAT TOFU as its SEGA Genesis ROM.
 
 If u have another ROM in `.bin` format (**NOT** the de-interleaved `.smd` format), u can replace the existing ROM data directly.
 
-Reference / ROM.smd fix:
+Reference to convert a ROM.smd into a ROM.bin:
 
 [https://sfmods.com/threads/shining-force-alternate.252/page-6](<https://sfmods.com/threads/shining-force-alternate.252/page-6>)
 
@@ -327,7 +334,7 @@ There is:
 - No HDD/SSD storage driver.
 - No network communication.
 
-It's not Windows. xD
+It's not Windows 11. // Dear Microsoft, pls fix Windows!
 
 _Note: Firmware-level components such as Intel Management Engine and similar spy technologies are outside the scope of these OS-level claims._
 
@@ -335,11 +342,12 @@ _Note: Firmware-level components such as Intel Management Engine and similar spy
 
 Penetrizzel currently uses the USB storage device from which it boots.
 
-The OS itself does not implement an HDD/SSD driver.
+Although Penetrizzel does not implement an HDD/SSD driver, USB storage operations can still overwrite existing data on the boot device.
 
 **QEMU exception:** When running the supplied `uefi.img` / `disk.img` through QEMU, the image is backed by a file on ur host computer. Therefore, the host HDD/SSD is indirectly involved in the virtualized setup.
 
 This does not mean Penetrizzel has direct access to ur host filesystem.
+
 
 ### ⚠️ Important: USB storage and game saves
 
@@ -353,22 +361,6 @@ The boot device also stores persistent game data, including:
 The OS uses approximately 84 MiB of storage.
 
 U can use the `MEMORY` command to show ur RAM usage.
-
-**I recommend backing up ur USB stick and clearing at least the first 90 MiB before using it.**
-
-Example on Arch Linux:
-
-bash
-
-```bash
-sudo dd if=/dev/zero of=/dev/sd? bs=1M count=90 status=progress conv=fsync
-```
-
-⚠️ **WARNING:** Always verify which device (e.g. `/dev/sd?`) u are messing up before executing such a command\!
-
-Replace `/dev/sd?` with the correct device identifier. Selecting the wrong device can destroy data.
-
-**IMPORTANT: This is not a harmless read-only boot image.**
 
 The relevant storage area is used for FAS and game data. Existing data will be overwritten\!
 
@@ -388,25 +380,14 @@ There are quite a few... 🙉
 
 ### General limitations
 
-- One CPU core only.
-- No paging.
-- No multithreading.
+- One CPU core only (file reads and Chess AI calculations block the entire CPU.)
 - No GPU acceleration.
 - USB support is not reliable yet.
 - xHCI implementation is still rather buggy. // SEND HELP\!
-- HDA audio support is incomplete.
+- HDA audio pin support is incomplete (only works with "Loudspeaker Boxes")
 - Only a limited number of sound controllers are supported.
-- PNO is still under development.
-- Custom PNO applications cannot yet be added conveniently.
-- File reads and Chess AI calculations block the entire CPU.
-
-### QEMU-specific issues
-
-QEMU has some BUGs (especially with UEFI) which I haven't encountered on real hardware.
-
-- Sometimes it doesn't boot and simply hangs at the "red boot splash screen".**FIX:** Just run the QEMU command again.
-- UEFI + QEMU does not seem to support the "PC Beeper" aka "Earbleeder" fallback audio backend... but, this might be a BUFF. xD
-- When switching applications quickly and frequently, HDA audio sometimes dies and falls back to the PC Beeper or produces no sound.
+- PNO is still under development and custom PNO applications cannot yet be added conveniently.
+- QEMU has some BUGs (especially with UEFI) which I haven't encountered on real hardware.
 
 ### Real hardware
 
@@ -425,20 +406,6 @@ Things that can go wrong:
 
 All these issues should be fixed by "turning OFF" the power of the computer, though.
 
-### Data safety
-
-Although Penetrizzel does not implement an HDD/SSD driver, USB storage operations can still overwrite existing data on the boot device.
-
-**Please don't use a USB stick containing valuable data without making a backup.**
-
----
-
-### Penetrizzel boot performance
-
-Boot-speed and performance testing on my Ryzen 9 5900X.
-
-The FPS target is adjustable from 1 to 1000.
-
 ---
 
 ## 👨‍💻 About Me
@@ -452,7 +419,7 @@ MS Word, Adobe Acrobat, u name it, I hate it.
 I did like MS Paint, TaskManager & Editor though... 🎨
 ...and I am a big fan of KDE Plasma "KATE" (which is my Code Editor basically) - so... it's not all "bad".
 
-On the Contrast, i rly like MS Copilot and even think an agentic OS could be good, if the agent is PURE local, ofc...
+On the Contrast, i rly like MS Copilot and even think an agentic OS could be good, if the LLM agent is PURE local, ofc...
 
 Modern software (especially on the WEB) is ridiculously bloated. // = understatement!
 
