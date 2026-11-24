@@ -89,6 +89,72 @@ The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff
 
 </details>
 
+<details>
+<summary>⚠️ fever dream... click to expand</summary>
+
+Virtual CPUs (V_CPU) aka CPU emulation:
+//TODO: New dumb idea: "V_CPU" – A 64-bit x86 Computer should be able to "execute all Code", no matter the CPU architecture. 
+
+For example:
+Create a "Virtual CPU" (short: V_CPU), e.g. M68000 and Z80; together, they could act as a SEGA Genesis emulator.
+Create another "Virtual CPU" which could e.g. run Amiga, ARM (JIT?), etc.
+Create Trampolines to switch between CPU execution modes: 32-bit (baseline), 16-bit (Real Mode), or 64-bit (with Paging). Each could act as a separate "Virtual CPU".
+Questions to ask: Is this possible? And does it even make sense..? xD
+
+</details>
+
+<details>
+<summary>🌐 ...this...is Heresy!</summary>
+
+The Internet should deliver information, not an entire operating environment.
+
+No web browser as a second layer (basically another OS on top of mine). No HTML, no WWW, no HTTPS(e.g. avoid the conventional Web stack), no JavaScript, etc. Just the freestanding C99 OS.
+
+"Websites" only transmit very little "data" – NO ASSETS! (no images, no fonts).
+
+These assets are already stored in the OS itself (e.g. basic fonts). The "website" only stores text strings, locations (where these strings should be displayed on the screen), etc.
+
+We use plain IP addresses (as a starting point) to access a "Penetrizzel-hosted Website".
+
+To access a certain website, we simply enter a COMMAND in the Console (which basically acts as a text-based web browser).
+
+We use TCP/IP.
+
+bash
+BROWSE 8.8.8.8        // BROWSE = COMMAND
+
+In the end...
+
+What is a Website..?
+
+...usually?
+
+Text (ok... with fancy CSS; but no1 rly needs that);
+
+sometimes Images;
+sometimes embedded videos;
+//we could handle these two later
+
+and 98% of the "other" stuff is not rly "wanted" by the user!
+
+</details>
+
+<details>
+<summary>🤖 Max Copium → Full Agentic OS click to expand</summary>
+
+Implement a 32-to-64-bit trampoline( = controlled CPU mode transitions), to switch CPU Mode on demand; then
+implement a fully Agentic OS to support a local AI (LLM). Make no mistakes!
+
+"Access" the GPU command buffers n' stuff (somehow): Load a local LLM into GPU memory and run it (inside the Console).
+
+Hook as many Kernel "functions" as possible to Commands the LLM can execute (to control stuff – complete Chaos? No problem!).
+
+~100% of GPU resources belong to the LLM; we use Software Rendering for all the "other stuff".
+The LLM is the operating system's administrator, not its guest.
+No artificial permission hierarchy inside Penetrizzel. The AI can modify, destroy, restart or completely break its own environment.
+CHAOS IS MY MASTER!
+</details>
+
 ---
 
 ## 🖥️ Features
