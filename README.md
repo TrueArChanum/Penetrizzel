@@ -172,6 +172,8 @@ The AI can modify, destroy, restart or completely break its own environment.
 
 Why should an AI running inside an operating system be treated like an app, rather than a first-class system component?
 
+https://github.com/user-attachments/assets/53c9cac3-6f7c-419e-833e-53b37a8182fa
+
 CHAOS IS MY MASTER!
 </details>
 
