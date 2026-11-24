@@ -50,7 +50,7 @@ Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
 
 Making even simple Games is rly hard; i want to deliver a platform which makes it easy to develop a simple 2D "retro-like" Game.
 
-More Examples: Not a fan, when i try to shutdown my Computer, but Windows decides to do "do stuff" for 10 more minutes...
+More Examples: Not a fan, when i try to shutdown my Computer, but Windows 11 decides to do "do stuff" for 10 more minutes... // I rly liked Win 7 - i wish id' come back! xD
 
 I also despise stuff like "Two Factor Auth." with a passion. Do not love local nor Online-Logins (squinting to Win11 -.- ) either to access my OS.
 
@@ -445,10 +445,12 @@ For people who care...
 
 I dislike long loading times, unresponsive menus, and 95% of modern EDV "Tools".
 
-MS Word, EXCEL, u name it, I hate it.
+MS Word, Adobe Acrobat, u name it, I hate it.
 
 I did like MS Paint, TaskManager & Editor though... 🎨
 ...and I am a big fan of KDE Plasma "KATE" (which is my Code Editor basically) - so... it's not all "bad".
+
+On the Contrast, i rly like MS Copilot and even think an agentic OS could be good, if the agent is PURE local, ofc...
 
 Modern software (especially on the WEB) is ridiculously bloated. // = understatement!
 
