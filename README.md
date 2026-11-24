@@ -74,6 +74,8 @@ Imagine separating ur data into different physical devices:
 | Key Stick | Could contain a cryptographic key. Without it, data on the Tresor Stick remains unreadable. |
 | Personal Data Stick | Contains encrypted personal user data. Cannot be read without the Key Stick; could be used for online stuff (authentication, age verification, etc.). |
 
+<img width="800" height="600" alt="USB_banner" src="https://github.com/user-attachments/assets/d903a3d5-325c-4d87-9025-f8678772453b" />
+
 And we could also mess around with the TPM 2.0 chip. // It's my hardware, I paid for it, so I wanna use this damn chip too\!
 
 The basic idea: Instead of real physical keys, we use USB sticks to unlock stuff. No other security layer needed (hopefully).
