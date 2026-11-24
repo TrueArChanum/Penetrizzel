@@ -245,11 +245,14 @@ Original project / example:
 
 [https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu](<https://github.com/Clownacy/clownmdsdk/tree/master/example/tofu>)
 
-### 🍔 FAT TOFU workaround
+<details>
+<summary> **Update:** Clownacy has fixed this issue in a newer version. The workaround described below is only relevant to older versions. </summary>
 
-There seems to be a Glitch involving FAT TOFU which can cause the emulator to hang.
+~~ ### 🍔 FAT TOFU workaround ~~
 
-For the currently distributed version, after executing:
+~~ There seems to be a Glitch involving FAT TOFU which can cause the emulator to hang. ~~
+
+~~ For the currently distributed version, after executing: ~~
 
 text
 
@@ -257,7 +260,7 @@ text
 RUN CLOWN
 ```
 
-Switch back to the console using the **F1 key**, then execute:
+~~ Switch back to the console using the **F1 key**, then execute: ~~
 
 text
 
@@ -265,9 +268,11 @@ text
 ROM WRITE 2CAC 0000
 ```
 
-Now switch back to TOFU and play.
+~~ Now switch back to TOFU and play. ~~
 
-Apparently, ROM editing is sometimes part of the gaming experience. xD
+~~ Apparently, ROM editing is sometimes part of the gaming experience. xD ~~
+
+</details>
 
 ### 💽 Replacing the Genesis ROM
 
