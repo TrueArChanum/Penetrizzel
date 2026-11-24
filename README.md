@@ -282,7 +282,7 @@ The current release version (uefi or disk.img) uses an "older" FAT TOFU as its S
 
 The project root folder contains a newer Version of the ROM.bin - Clownacy did fix the glitch in this version.
 
-u can try to fix the glitch by applying the "replace_rom" HACK to the older FAT TOFU ROM.
+u can try to update the ROM by applying the "replace_rom" HACK to the older FAT TOFU ROM.
 
 //NOTE: future uploads of the kernel will include the newer, fixed version, ofc.
 
