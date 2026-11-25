@@ -179,7 +179,7 @@ CHAOS IS MY MASTER!
 
 ---
 
-## Features
+## 🖥️ Features
 
 - x86 32-bit protected mode.
 - Freestanding C99 + Assembly (NASM).
