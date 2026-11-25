@@ -179,6 +179,7 @@ CHAOS IS MY MASTER!
 
 ---
 
+<a name="penetrizzel-features"></a>
 ## 🖥️ Features
 
 - x86 32-bit protected mode.
@@ -507,6 +508,7 @@ All these issues should be fixed by "turning OFF" the power of the computer, tho
 
 ---
 
+<a name="penetrizzel-about"></a>
 ## 👨‍💻 About Me
 
 For people who care...
