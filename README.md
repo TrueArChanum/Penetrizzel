@@ -179,7 +179,6 @@ CHAOS IS MY MASTER!
 
 ---
 
-<a id="Features"></a>
 ## 🖥️ Features
 
 - x86 32-bit protected mode.
@@ -232,8 +231,6 @@ The PNO format is still relatively new. A lot of things are hardcoded right now,
 ## 🎮 SEGA Genesis Emulation
 
 Penetrizzel includes an optional PNO implementation of ClownMDEmu, based on Clownacy's awesome emulator.
-
-Features:
 
 - SEGA Genesis / Mega Drive ROM support.
 - ROM size up to 6 MiB.
