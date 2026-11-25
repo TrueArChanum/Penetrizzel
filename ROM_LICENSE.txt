@@ -8,7 +8,7 @@ It originates from Clownacy's ClownMDSDK project:
 
 https://github.com/Clownacy/clownmdsdk
 
-Copyright © 2024 Clownacy.
+Copyright © 2024-2026 Clownacy.
 
 ClownMDSDK,
 including its example projects, is released under the Zero-Clause BSD licence.
