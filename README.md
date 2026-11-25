@@ -1,4 +1,4 @@
-# ⛧ Penetrizzel
+<img width="554" height="108" alt="penetrizzel_banner" src="https://github.com/user-attachments/assets/d8d84f52-855e-453b-9df5-6686897d5026" />
 
 ---
 
