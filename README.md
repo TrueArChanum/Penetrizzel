@@ -35,13 +35,13 @@ Take a peek at the [kernel.c](kernel.c) * the heart of Penetrizzel.
 
 - [What is Penetrizzel?](#-what-is-penetrizzel)
 - [Why Penetrizzel?](#why-penetrizzel)
-- [Features](#-features)
+- [Features](#penetrizzel-features)
 - [SEGA Genesis Emulation](#-sega-genesis-emulation)
 - [Performance & Architecture](#-performance--architecture)
 - [Download & Installation](#-download--installation)
 - [Security & Privacy](#-security--privacy)
 - [Known Limitations & Bugs](#-known-limitations--bugs)
-- [About Me](#-about-me)
+- [About Me](#penetrizzel-about)
 - [Support the Development](#-support-the-development)
 
 ---
