@@ -179,7 +179,7 @@ CHAOS IS MY MASTER!
 
 ---
 
-<a id="features"></a>
+<a id="Features"></a>
 ## 🖥️ Features
 
 - x86 32-bit protected mode.
