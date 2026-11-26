@@ -407,7 +407,10 @@ Only ONE of the following images is needed to run Penetrizzel.
 
 > **Penetrizzel Kernel * Disk Image Specification** BIOS & UEFI · 512-byte sectors · 84 MiB disk image
 
-The USB stick uses a shared raw disk layout for both BIOS and UEFI builds. Boot infrastructure differs, but kernel assets occupy identical LBAs in both images.
+The USB stick uses a shared raw disk layout for both BIOS and UEFI builds. 
+
+Boot infrastructure differs, but kernel assets occupy identical LBAs (Logical block addressing) in both images.
+
 //NOTE: i intend to change this in the future, towards a smarter layout...
 
 ## 🗺️ Disk Layout
