@@ -403,6 +403,86 @@ Only ONE of the following images is needed to run Penetrizzel.
 | `disk.img` | Legacy BIOS | 84 MiB |
 | `uefi.img` | UEFI | 84 MiB |
 
+# 💾 USB Stick Layout
+
+> **Penetrizzel Kernel — Disk Image Specification**BIOS & UEFI · 512-byte sectors · 84 MiB disk image
+
+The USB stick uses a shared raw disk layout for both BIOS and UEFI builds. Boot infrastructure differs, but kernel assets occupy identical LBAs in both images.
+
+## 🗺️ Disk Layout
+
+| Region | Start (MiB) | End (MiB) | Size | Description |
+| --- | --- | --- | --- | --- |
+| Boot area | 0 | — | — | BIOS boot sectors / GPT metadata |
+| Kernel | 0.00244 | 65 | Variable | Raw kernel image (BIOS) / FAT32 file (UEFI) |
+| ESP | 1 | 65 | 64 MiB | UEFI boot partition (FAT32) |
+| FAS | 65 | 75 | 10 MiB | Shared raw asset region |
+| Hyper-Wurm | 75 | 76 | 1 MiB | `wurm.pno` |
+| clownMDEmu | 76 | 77 | 1 MiB | `clown.pno` |
+| Genesis ROM | 77 | 83 | 6 MiB | `ROM.bin` |
+| Chess PNO | 83 | 84 | 1 MiB | `chess.pno` |
+| Audio blob | 4 | Variable | Variable | `twilight_chess.audio.lz4` |
+| Disk end | — | 84 | — | End of image |
+
+**NOTE:** The audio blob starts at LBA 16384 (8 MiB. Its size depends on the compressed audio asset.
+
+## 📍 Raw Sector Map
+
+All LBAs use 512-byte sectors.
+
+| LBA | Offset | Purpose |
+| --- | --- | --- |
+| 0 | 0 KiB | BIOS Stage 1 / GPT metadata |
+| 1 | 0.5 KiB | BIOS Stage 2 |
+| 10 | 5 KiB | BIOS kernel |
+| 16384 | 8 MiB | Audio blob |
+| 133120 | 65 MiB | FAS region start |
+| 153600 | 75 MiB | Hyper-Wurm PNO |
+| 155648 | 76 MiB | clownMDEmu PNO |
+| 157696 | 77 MiB | Genesis ROM |
+| 169984 | 83 MiB | Chess PNO |
+| 172032 | 84 MiB | End of image |
+
+## ⚙️ Boot Modes
+
+### Legacy BIOS
+
+- MBR-style boot code at LBA 0.
+- Stage 2 at LBA 1 (maximum 5 sectors).
+- Kernel loaded from LBA 10.
+- Remaining assets accessed through fixed raw LBAs.
+
+### UEFI x86\_64
+
+- GPT partition table.
+- FAT32 EFI System Partition: 1–65 MiB.
+- EFI executable: `EFI/BOOT/BOOTX64.EFI`.
+- Kernel stored as `/kernel.bin` on the ESP.
+- FAS and game assets remain at their shared raw LBAs.
+
+## 🎮 Asset Reservations
+
+| Asset | Reserved Space | Maximum Size |
+| --- | --- | --- |
+| FAS | 10 MiB | 10 MiB |
+| Hyper-Wurm PNO | 1 MiB | 1 MiB |
+| clownMDEmu PNO | 1 MiB | 1 MiB |
+| Chess PNO | 1 MiB | 1 MiB |
+| Genesis ROM | 6 MiB | 6 MiB |
+| Audio | Variable | Remaining image capacity |
+
+## 📝 Technical Notes
+
+- Sector size: **512 bytes**.
+- Image size: **84 MiB minimum**, extended for BIOS audio when necessary.
+- UEFI image size: **84 MiB fixed**.
+- PNO and ROM assets are written directly to raw disk offsets.
+- Genesis ROM must have an even file size.
+- Asset offsets are shared between BIOS and UEFI.
+- Do not treat the raw asset regions as ordinary files on the FAT32 partition.
+
+---
+
 ### Requirements
 
 - A compatible x86 PC.
