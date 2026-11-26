@@ -425,10 +425,8 @@ Boot infrastructure differs, but kernel assets occupy identical LBAs (Logical bl
 | clownMDEmu | 76 | 77 | 1 MiB | `clown.pno` |
 | Genesis ROM | 77 | 83 | 6 MiB | `ROM.bin` |
 | Chess PNO | 83 | 84 | 1 MiB | `chess.pno` |
-| Audio blob | 4 | Variable | Variable | `twilight_chess.audio.lz4` |
+| Audio blob | 8 | Variable | Variable | `twilight_chess.audio.lz4` |
 | Disk end | — | 84 | — | End of image |
-
-**NOTE:** The audio blob starts at LBA 16384 (8 MiB. Its size depends on the compressed audio asset.
 
 ## 📍 Raw Sector Map
 
