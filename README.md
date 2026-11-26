@@ -418,7 +418,7 @@ Boot infrastructure differs, but kernel assets occupy identical LBAs (Logical bl
 | Region | Start (MiB) | End (MiB) | Size | Description |
 | --- | --- | --- | --- | --- |
 | Boot area | 0 | — | — | BIOS boot sectors / GPT metadata |
-| Kernel | 0.00244 | 65 | Variable | Raw kernel image (BIOS) / FAT32 file (UEFI) |
+| Kernel | 0.005 | 65 | Variable | Raw kernel image (BIOS) / FAT32 file (UEFI) |
 | ESP | 1 | 65 | 64 MiB | UEFI boot partition (FAT32) |
 | FAS | 65 | 75 | 10 MiB | Shared raw asset region |
 | Hyper-Wurm | 75 | 76 | 1 MiB | `wurm.pno` |
