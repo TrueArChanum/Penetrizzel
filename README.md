@@ -389,9 +389,12 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 **[🚀 Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
 
-Choose the appropriate image:  //NOTE: Only ONE image is required.
-- `disk.img` ➡️ Legacy BIOS
-- `uefi.img` ➡️ UEFI
+//NOTE: Only ONE image is required.
+
+| Image | Boot mode | Size |
+| --- | --- | --- |
+| `disk.img` | Legacy BIOS | 84 MiB |
+| `uefi.img` | UEFI | 84 MiB |
 
 Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
 
@@ -410,14 +413,6 @@ i cannot take it back; that's why i wanna back "small steps" first.
 
 Open-sourcing parts or potentially all of the project remains a possibility for the future.
 
-### Available images
-
-Only ONE of the following images is needed to run Penetrizzel.
-
-| Image | Boot mode | Size |
-| --- | --- | --- |
-| `disk.img` | Legacy BIOS | 84 MiB |
-| `uefi.img` | UEFI | 84 MiB |
 
 # 💾 USB Stick Layout
 
