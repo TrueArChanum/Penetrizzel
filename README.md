@@ -387,7 +387,7 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 ## 📦 Download & Installation
 
-**[🚀 Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
+**[🦠 ☢️ Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
 
 //NOTE: Only ONE image is required.
 
