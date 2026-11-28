@@ -347,7 +347,7 @@ On "real" hardware (e.g. my Ryzen 9 5900X), it easily hits **1000 FPS at approxi
 
 ### Some statistics
 
-**Version 1.37**
+**Version ~~1.37~~ 1.38**
 
 #### Lines of Code * Penetrizzel
 
