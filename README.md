@@ -361,10 +361,10 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 3 -type f -name "*.asm" -exec cat {
 
 | File type | Lines |
 | --- | --- |
-| `.h` | 7,764 |
-| `.c` | 72,173 |
-| `.asm` | 5,506 |
-| **Total** | **85,443** |
+| `.h` | 7,743 |
+| `.c` | 71,936 |
+| `.asm` | 5,511 |
+| **Total** | **85,190** |
 
 #### Lines of Code * Including clownMDEmu (via .pno), all custom libs, everything.
 
@@ -378,10 +378,10 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 | File type | Lines |
 | --- | --- |
-| `.h` | 12,267 |
-| `.c` | 85,793 |
-| `.asm` | 5,506 |
-| **Total** | **103,566** |
+| `.h` | 12,227 |
+| `.c` | 85,556 |
+| `.asm` | 5,511 |
+| **Total** | **103,294** |
 
 ---
 
