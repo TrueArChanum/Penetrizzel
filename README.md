@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/242446cf-a66e-444b-886d-2a7d05680523
 
 ---
 
-### Source Code
+### 🗃️ Source Code
 
 Curious about what's under the hood?
 
@@ -398,7 +398,7 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
 
-### QEMU
+### QEMU 🦩 // I am pretty sure...that this is the correct bird...
 
 You can also run Penetrizzel using QEMU.
 
@@ -439,7 +439,7 @@ Boot infrastructure differs, but kernel assets occupy identical LBAs (Logical bl
 | Audio blob | 8 | Variable | Variable | `twilight_chess.audio.lz4` |
 | Disk end | — | 84 | — | End of image |
 
-## 📍 Raw Sector Map
+## 📰 Raw Sector Map
 
 All LBAs use 512-byte sectors.
 
@@ -513,7 +513,7 @@ There is:
 - No HDD/SSD storage driver.
 - No network communication.
 
-It's not Windows 11      // Dear Microsoft, pls fix Windows!
+It's not Windows 11      // Dear Microsoft, pls fix Windows! 🤗
 
 _NOTE: Firmware-level components such as Intel Management Engine and similar "spy" technologies are outside the scope of these OS-level claims._
 
@@ -635,7 +635,7 @@ I challenge u\! ⚔️
 
 **Please fix modern software\!**
 
-P.S. I don't like smartphones either.
+P.S. I don't like smartphones either. 📵
 
 ---
 
