@@ -494,7 +494,13 @@ All LBAs use 512-byte sectors.
 
 ### Creating a bootable USB stick
 
-Download the appropriate image from the Releases section.
+### ⬇️ Download Penetrizzel
+
+**[🚀 Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
+
+Choose the appropriate image:  //NOTE: Only ONE image is required.
+- `disk.img` ➡️ Legacy BIOS
+- `uefi.img` ➡️ UEFI
 
 Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
 
