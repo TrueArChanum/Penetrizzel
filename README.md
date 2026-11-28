@@ -387,6 +387,22 @@ find ~/Desktop/Penetrizzel/Kernel/ -maxdepth 20 -type f -name "*.asm" -exec cat 
 
 ## 📦 Download & Installation
 
+**[🚀 Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
+
+Choose the appropriate image:  //NOTE: Only ONE image is required.
+- `disk.img` ➡️ Legacy BIOS
+- `uefi.img` ➡️ UEFI
+
+Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
+
+### QEMU
+
+You can also run Penetrizzel using QEMU.
+
+See [QEMU.md](QEMU.md) for the recommended command line and configuration.
+
+---
+
 ### 📜 Licensing & Development Philosophy
 
 This project is currently developed as proprietary, closed-source software, cause of "entropy" - as soon as i made the decision to "open source" everything, 
@@ -491,26 +507,6 @@ All LBAs use 512-byte sectors.
 - USB storage device for physical booting.
 - Legacy BIOS / CSM or UEFI firmware, depending on the image.
 - QEMU for virtualized testing.
-
-### Creating a bootable USB stick
-
-### ⬇️ Download Penetrizzel
-
-**[🚀 Download the latest release](https://github.com/TrueArChanum/Penetrizzel/releases/latest)**
-
-Choose the appropriate image:  //NOTE: Only ONE image is required.
-- `disk.img` ➡️ Legacy BIOS
-- `uefi.img` ➡️ UEFI
-
-Detailed installation instructions: [INSTALLATION.md](INSTALLATION.md)
-
-### QEMU
-
-You can also run Penetrizzel using QEMU.
-
-See [QEMU.md](QEMU.md) for the recommended command line and configuration.
-
----
 
 ## 🔐 Security & Privacy
 
