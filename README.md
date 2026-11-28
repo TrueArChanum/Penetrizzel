@@ -283,7 +283,7 @@ The current release version (uefi or disk.img) uses an "older" FAT TOFU as its S
 
 u can try to update the ROM by applying the "replace_rom" HACK to the older FAT TOFU ROM.
 
-~~ //NOTE: future uploads of the kernel will include the newer, fixed version, ofc. ~~ //DONE.
+~~ //NOTE: future uploads of the kernel will include the newer, fixed version, ofc. ~~
 
 If u have another ROM in `.bin` format (**NOT** the de-interleaved `.smd` format), u can replace the existing ROM data directly.
 
