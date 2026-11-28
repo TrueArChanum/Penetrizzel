@@ -74,10 +74,7 @@
 
 
 
-
-
-
-// kernel.c
+// kernel.c     VERSION 1.38
 
 #include <stdint.h>
 
@@ -1342,7 +1339,7 @@ void kernel_start(void)
 
     kernel_reset_requested = false;
 
-    kprintf("kernel footprint: %u bytes\n", (uint32_t)(&kernel_end - &__kernel_start)); // 💾 1163088 bytes, ROM 6291456 bytes, Audio_Blob (for Twilight Chess) 56604160
+    kprintf("kernel footprint: %u bytes\n", (uint32_t)(&kernel_end - &__kernel_start)); // 💾 1168752 bytes, ROM 6291456 bytes, Audio_Blob (for Twilight Chess) 56604160
 
     kernel_main();
 
